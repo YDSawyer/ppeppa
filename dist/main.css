@@ -1,0 +1,92 @@
+ *{
+     margin: 0px;
+     padding: 0px;
+ }
+.header_nav{
+    height: 220px;
+    border-bottom: 1px solid black;
+    background: url("Quad-Aces.jpg") no-repeat center bottom;
+}
+header, footer, nav, div{
+    display: block;
+}
+body{
+    text-align: center;
+}
+.clearfix:before, clearfix:after{
+    content:"\0020";
+    display: block;
+    height:0;
+    overflow: hidden;
+}
+.big_bodycontainer{
+    background: url("fon.jpg") no-repeat center bottom;
+}
+#bodycontainer{
+    border: 2px solid black;
+    width: 959px;
+    margin: 0px auto;
+    text-align: left;
+}
+.navbar{
+    color: white;
+    background: black;
+}
+
+ /* футер */
+
+ .clearfix{
+     clear: both;
+ }
+
+
+ #foot{
+     border: 1px solid white;
+     margin: 0px auto;
+     width: 959px;
+     padding: 25px;
+     background-color: #131313;
+ }
+
+ .footInfo{
+     border-bottom: 1px solid #333535;
+     padding: 25px 0px 15px 0px;
+ }
+
+ .footInfoLeft{
+     float: left;
+     width: 340px;
+     color: #898c87;
+     font-size: 15px;
+     line-height: 21px;}
+
+
+
+ .footInfoRight{
+     float: right;
+     width: 540px;
+     text-align: left;
+ }
+ .footInfoRight a,.footInfoRight a:link,.footInfoRight a:visited{
+     float: left;
+     width: 33%;
+     margin-bottom: 18px;
+     line-height: 29px;
+     text-decoration: none;
+     color: #e1e1e1;
+ }
+ .footInfoRight a:hover{
+     color: #fff;
+ }
+ .footInfoRight a img{
+     margin-right: 5px;
+     vertical-align: middle;
+ }
+.footBottom {
+    padding: 20px 0px 10px 0px;
+    color: #898c87;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+/* футер*/
