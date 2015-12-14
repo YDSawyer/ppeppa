@@ -2,36 +2,31 @@
      margin: 0px;
      padding: 0px;
  }
-.header_nav{
-    height: 220px;
-    border-bottom: 1px solid black;
-    background: url("Quad-Aces.jpg") no-repeat center bottom;
-}
+
+
+
+
+
 header, footer, nav, div{
-    display: block;
-}
-body{
-    text-align: center;
-}
+     display: block;
+ }
+
 .clearfix:before, clearfix:after{
     content:"\0020";
     display: block;
     height:0;
     overflow: hidden;
 }
-.big_bodycontainer{
-    background: url("fon.jpg") no-repeat center bottom;
-}
 #bodycontainer{
-    border: 2px solid black;
+    background: #ffffff;
     width: 959px;
     margin: 0px auto;
     text-align: left;
 }
-.navbar{
-    color: white;
-    background: black;
+.big_bodycontainer{
+    background: url("fon.jpg") no-repeat center bottom;
 }
+
 
  /* футер */
 
@@ -39,16 +34,20 @@ body{
      clear: both;
  }
 
+footer{
+    width: 100%;
+    background-color: #131313;
 
+}
  #foot{
-     border: 1px solid white;
      margin: 0px auto;
      width: 959px;
-     padding: 25px;
+     padding: 5px;
      background-color: #131313;
  }
 
  .footInfo{
+     margin-left: 20px;
      border-bottom: 1px solid #333535;
      padding: 25px 0px 15px 0px;
  }
@@ -83,6 +82,7 @@ body{
      vertical-align: middle;
  }
 .footBottom {
+    margin-left: 20px;
     padding: 20px 0px 10px 0px;
     color: #898c87;
     font-size: 15px;
@@ -90,3 +90,37 @@ body{
 }
 
 /* футер*/
+
+article{
+    display: block;
+
+}
+h1{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 32px;
+    padding-top: 11px;
+}
+h1 {
+    color: #181919;
+    font-weight: bolder;
+    border-bottom: 3px solid #181919;
+    display: block;
+}
+ .newsItemBlock {
+     background-color: #fff;
+     padding: 50px 40px;
+ }
+ .newsItemBlock {
+     font-family: "PT Sans", sans-serif;
+     text-align: justify;
+     line-height: 1;
+     color: #1f1f1f;
+ }
+ .newsItemBlock p{
+     color: #181919;
+     font-size: 16px;
+     line-height: 30px;
+     margin-bottom: 25px;
+ }
